@@ -9,7 +9,7 @@ knit: (function(input, ...) {
     rmarkdown::render(
       input,
       output_file = 'index',
-      output_dir='../'
+      output_dir='./'
     )
   })
 
